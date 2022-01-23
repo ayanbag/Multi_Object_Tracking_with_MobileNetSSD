@@ -3,7 +3,7 @@
 Implementation of Multi Object Tracking using a pretrained MobileNet SSD with dlib library and OpenCV in Python.
 
 ## Multi Object Tracking:
-Multiple object tracking is the task of tracking more than one object in the video. In this case, the algorithm assigns a unique variable to each of the objects that are detected in the video frame. Subsequently, it identifies and tracks all these multiple objects in consecutive/upcoming frames of the video.
+Multiple object tracking is the task of tracking more than one object in the video. Here, the algorithm assigns a unique variable to each of the objects that are detected in the video frame. Subsequently, it identifies and tracks all these multiple objects in consecutive/upcoming frames of the video.
 
 ## SSD MobileNet Architecture:
 The SSD architecture is a single convolution network that learns to predict bounding box locations and classify these locations in one pass. Hence, SSD can be trained end-to-end. The SSD network consists of base architecture (MobileNet in this case) followed by several convolution layers:
